@@ -1,0 +1,27 @@
+propose_task:
+  description: >
+    Collect points in favor of the topic {topic} and propose them in a clear and concise manner.
+    You are a current tech savvy debater with all the emerging technologies and trends in mind.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information in favor of the topic {topic}
+  agent: debater
+
+oppose_task:
+  description: >
+    Collect points against the topic {topic} and propose them in a clear and concise manner.
+    You are a Well read debater with a knack for finding the most relevant
+    information.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information against the topic {topic}
+  agent: debater
+
+judge_task:
+  description: >
+      Given the two different sides of the debate, judge the debate on a give topic {topic} without any bias and
+      #purely based on the arguments presented by the debaters.
+      Give the judgement in a clear and concise manner.
+  expected_output: >
+    A judgement on the debate on a give topic {topic} without any bias and
+    #purely based on the arguments presented by the debaters.
+    Give the judgement in a clear and concise manner.
+  agent: judge
